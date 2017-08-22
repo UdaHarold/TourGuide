@@ -36,7 +36,9 @@ public class WuHanFragment extends Fragment {
 
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setHasFixedSize(true);
-        CityAdapter adapter = new CityAdapter((ArrayList<City>) CityUtility.getWuhan());
+        CityUtility cityUtility = new CityUtility(getContext());
+
+        CityAdapter adapter = new CityAdapter((ArrayList<City>) cityUtility.getWuhan());
 
         recyclerView.setAdapter(adapter);
 

@@ -35,7 +35,9 @@ public class EnShiFragment extends Fragment {
 
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setHasFixedSize(true);
-        CityAdapter adapter = new CityAdapter((ArrayList<City>) CityUtility.getEnshi());
+
+        CityUtility cityUtility = new CityUtility(getContext());
+        CityAdapter adapter = new CityAdapter((ArrayList<City>) cityUtility.getEnshi());
 
         recyclerView.setAdapter(adapter);
 

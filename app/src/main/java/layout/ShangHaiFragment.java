@@ -38,7 +38,8 @@ public class ShangHaiFragment extends Fragment {
 
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setHasFixedSize(true);
-        CityAdapter adapter = new CityAdapter((ArrayList<City>) CityUtility.getShanghai());
+        CityUtility cityUtility = new CityUtility(getContext());
+        CityAdapter adapter = new CityAdapter((ArrayList<City>) cityUtility.getShanghai());
 
         recyclerView.setAdapter(adapter);
 

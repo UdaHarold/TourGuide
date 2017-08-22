@@ -6,4 +6,43 @@
     <string name="tab_2">恩施</string>
     <string name="tab_3">上海</string>
 
+    <!--武汉-->
+
+    <string name="wuhan_restaurant">美食：户部巷</string>
+    <string name="wuhan_restaurant_desc">被誉为“汉味小吃第一巷”，其繁华的早点摊群数十年经久不衰</string>
+
+    <string name="wuhan_scene">景点：黄鹤楼</string>
+    <string name="wuhan_scene_desc">黄鹤楼位于湖北省武汉市长江南岸的武昌蛇山之巅，为国家5A级旅游景区，享有“天下江山第一楼“、”天下绝景“之称</string>
+
+    <string name="wuhan_playground">活动：东湖</string>
+    <string name="wuhan_playground_desc">武汉东湖是以大型自然湖泊为核心，湖光山色为特色，集旅游观光、休闲度假、科普教育为主要功能的旅游景区</string>
+
+
+    <!--宜昌-->
+
+    <string name="yichang_restaurant">美食：萝卜饺子</string>
+    <string name="yichang_restaurant_desc">这种饺子用全萝卜做成，味道非常鲜美，是本地独有的小吃</string>
+    <string name="yichang_scene">景点：三峡大坝</string>
+    <string name="yichang_scene_desc">是当今世界最大的水利发电工程，大坝高185米，正常蓄水位175米，水库长2335米</string>
+    <string name="yichang_playground">活动：朝天吼</string>
+    <string name="yichang_playground_desc">宜昌高岚朝天吼漂流景区全长6.5公里，落差148米</string>
+
+    <!--恩施-->
+
+    <string name="enshi_restaurant">美食：土家油茶汤</string>
+    <string name="enshi_restaurant_desc">土人以油炸黄豆，包谷，米花，绿焦诸物，取水和油，煮茶叶和汤泡之</string>
+    <string name="enshi_scene">景点：龙船水乡</string>
+    <string name="enshi_scene_desc">龙船水乡风景区是一处中国最理想的避暑度假胜地，是理想休闲娱乐的良好场所</string>
+    <string name="enshi_playground">活动：腾龙洞</string>
+    <string name="enshi_playground_desc">腾龙洞属中国目前最大的溶洞，世界特级洞穴之一,洞中有山，山中有洞，水洞旱洞相连</string>
+
+    <!--上海-->
+
+    <string name="shanghai_restaurant">美食：南翔小笼</string>
+    <string name="shanghai_restaurant_desc">上海市嘉定区南翔镇的传统名产，以皮薄、肉嫩、汁多、味鲜、形美著称</string>
+    <string name="shanghai_scene">景点：豫园</string>
+    <string name="shanghai_scene_desc">江南古典园林，始建于明代嘉靖、万历年间</string>
+    <string name="shanghai_playground">活动：外滩</string>
+    <string name="shanghai_playground_desc">上海辟为商埠以后，外国的银行、商行、总会、报社开始在此云集</string>
+
 </resources>

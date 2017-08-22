@@ -35,7 +35,9 @@ public class YiChangFragment extends Fragment {
 
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setHasFixedSize(true);
-        CityAdapter adapter = new CityAdapter((ArrayList<City>) CityUtility.getYichang());
+
+        CityUtility cityUtility = new CityUtility(getContext());
+        CityAdapter adapter = new CityAdapter((ArrayList<City>) cityUtility.getYichang());
 
         recyclerView.setAdapter(adapter);
 

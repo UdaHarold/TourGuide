@@ -61,10 +61,5 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.CityViewHolder
             mCityDesc = (TextView) itemView.findViewById(R.id.city_descption);
         }
 
-        public void setCityData(ArrayList<City> cityData) {
-            mCityData = cityData;
-            notifyDataSetChanged();
-        }
-
     }
 }
