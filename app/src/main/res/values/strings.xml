@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <string name="tab_0">武汉</string>
+    <string name="tab_1">宜昌</string>
+    <string name="tab_2">恩施</string>
+    <string name="tab_3">上海</string>
+
+</resources>
